@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "842e67f6c07bdc05a19633aab59bd7fb",
+    "packages": [
+        {
+            "name": "usha/helloworld",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/udharpurekadwe/hello-composer.git",
+                "reference": "8dbea8352f229756b4b49f9c41e3da510ddf2af9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/udharpurekadwe/hello-composer/zipball/8dbea8352f229756b4b49f9c41e3da510ddf2af9",
+                "reference": "8dbea8352f229756b4b49f9c41e3da510ddf2af9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "usha\\HelloWorld\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "udharpure",
+                    "email": "udharpure@xento.com"
+                }
+            ],
+            "description": "this is my first package",
+            "time": "2020-07-13T09:51:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

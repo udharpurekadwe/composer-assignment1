@@ -1,0 +1,17 @@
+{
+    "name": "usha/assignment1",
+    "description": "This is my first assignment",
+    "type": "library",
+    "authors": [
+        {
+            "name": "udharpure",
+            "email": "udharpure@xento.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {"usha\\HelloWorld\\": "src/"}
+    },
+    "require": {
+        "usha/helloworld": "^1.0"
+    }
+}
